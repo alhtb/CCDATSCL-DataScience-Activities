@@ -4,7 +4,7 @@ This repository compiles all activities and projects completed in my Data Scienc
 
 ## Academic Context
 * **Subject:** Data Science
-* **Tools:** Python, SQLite, Pandas, Matplotlib, Google Colab
+* **Tools:** Python, SQLite, Pandas, Matplotlib, Scikit-Learn, TensorFlow, Google Colab
 
 ---
 
@@ -34,6 +34,31 @@ This module focuses on data manipulation and visual storytelling using Python li
 
 ---
 
+### ⋆‧°𓏲ּ𝄢 Activity 3: Data Mining (Association Rules)
+**Folder:** `Activity_03_DataMining`
+
+This module explores frequent pattern mining and rule discovery using both Python (scripting logic) and SQL (query-based mining).
+
+| Notebook | Description | Open in Colab |
+| :--- | :--- | :--- |
+| **Mining SQL** | Mining frequent item-sets (Size 3 & 4) and Association Rules (Confidence & Lift) using complex SQL queries. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alhtb/CCDATSCL-DataScience-Activities/blob/main/Activity_03_DataMining/MiningSQL.ipynb) |
+| **Mining Python** | Implementation of logic loops to clean self-pairs and discover high-lift rules in Shopping & Movie datasets. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alhtb/CCDATSCL-DataScience-Activities/blob/main/Activity_03_DataMining/MiningPython.ipynb) |
+
+---
+
+### ⋆‧°𓏲ּ𝄢 Activity 4: Machine Learning
+**Folder:** `Activity_04_MachineLearning`
+
+This module applies Supervised and Unsupervised Learning techniques to solve predictive and clustering problems using Scikit-Learn and Keras.
+
+| Notebook | Description | Open in Colab |
+| :--- | :--- | :--- |
+| **Classification** | Comparative analysis of 5 algorithms (KNN, Trees, Forest, Naive Bayes, Neural Networks) on World Cup & Titanic datasets. Achieved **~86% accuracy** on Titanic survival prediction. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alhtb/CCDATSCL-DataScience-Activities/blob/main/Activity_04_MachineLearning/Classification.ipynb) |
+| **Regression** | Predictive modeling of continuous variables. Includes Linear Regression for temperature trends and analyzing correlations between player stats (e.g., Passes vs. Minutes). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alhtb/CCDATSCL-DataScience-Activities/blob/main/Activity_04_MachineLearning/Regression.ipynb) |
+| **Clustering** | Unsupervised learning using **K-Means**. Visualizing natural groupings in World Cup player data (Tackles vs. Shots) and city locations without pre-existing labels. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alhtb/CCDATSCL-DataScience-Activities/blob/main/Activity_04_MachineLearning/Clustering.ipynb) |
+
+---
+
 ## How to View or Run
 
 ### ⋆‧°𓏲ּ𝄢 To View Code & Outputs 
@@ -41,5 +66,6 @@ Simply click on the `.ipynb` files in the list above. GitHub renders the noteboo
 
 ### ⋆‧°𓏲ּ𝄢 To Run the Code
 1.  Click the "Open in Colab" badge next to the notebook.
-2.  **Important:** Download the required `.csv` datasets from the `data/` folder in this repository.
-3.  Upload the `.csv` files to the Colab session (Files sidebar > Upload) before running the cells.
+2.  **Important:** Navigate to the specific activity folder (e.g., `Activity_01_SQL`) on GitHub.
+3.  Download the required `.csv` files found **inside that same folder** (e.g., `Cities.csv`, `Countries.csv`).
+4.  Upload the `.csv` files to the Colab session (Files sidebar > Upload) before running the cells.
