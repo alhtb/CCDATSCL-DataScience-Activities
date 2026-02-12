@@ -1,5 +1,12 @@
 # CCDATSCL-DataScience-Activities
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Database_Logic-003B57?logo=sqlite&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-Machine_Learning-F7931E?logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep_Learning-FF6F00?logo=tensorflow&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 This repository compiles all activities and projects completed in my Data Science course. It serves as a structured collection of programming exercises and applications, showcasing the progression from foundational concepts to advanced techniques in data-driven problem solving.
 
 ## Academic Context
